@@ -1,0 +1,10 @@
+<h1>Angular Calculator</h1>
+<input type="number" id="operand1" placeholder="operand1" ng-model='operand1'>
+<input type='number' id="operand2" placeholder="operand2" ng-model='operand2'>
+<button id='add' ng-click='add(operand1, operand2)'>+</button>
+<button id='subtract' ng-click='subtract(operand1, operand2)'>-</button>
+<button id='multiply' ng-click='multiply(operand1, operand2)'>*</button>
+<button id='divide'ng-click='divide(operand1, operand2)'>/</button>
+<br>
+<br>
+<p ng-model='result'>{{result}}</p>
